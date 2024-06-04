@@ -6,10 +6,9 @@ import Register from "./Components/Register";
 import Mens from "./Components/Mens";
 import Profile from "./Components/Profile";
 import UseState from "./25-5/Usestate";
-import UseEffect2 from "./26-6/UseEffect2";
-import UseState2 from "./26-6/UseState2";
-import UseEffect1 from "./26-6/UseEffect1";
+
 import UseState3 from "./25-5/Usestate3";
+import UseEffect3 from "./29-05/UseEffect3";
 // ctrl + space -> automatic imports
 
 function App() {
@@ -22,10 +21,8 @@ function App() {
         <Route path="/mens" element={<Mens />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/use-state" element={<UseState />} />
-        <Route path="/use-state2" element={<UseState2 />} />
-        <Route path="/use-effect1" element={<UseEffect1 />} />
-        <Route path="/use-effect2" element={<UseEffect2 />} />
         <Route path="/use-state3" element={<UseState3  />} />
+        <Route path="/use-effect3" element={<UseEffect3  />} />
       </Routes>
     </div>
   );
